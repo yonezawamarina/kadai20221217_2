@@ -8,7 +8,7 @@
 <body>
 <div id="whole">
 
-     <h2>ergeragaer</h2>
+  
     <h1 class="title">ka・ke・i・bo</h1>
 
      <!-- フォームここから -->
