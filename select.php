@@ -33,7 +33,7 @@ if ($status==false) {
 
   while ($result = $stmt->fetch(PDO::FETCH_ASSOC)) {
 
-    echo'<pre>';
+    echo '<pre>';
     var_dump($result);
     echo'</pre>';
   //   $view .= '<p>' . $result['id'] . ' : ' . h($result['food']) . ' / ' 
