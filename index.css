@@ -1,0 +1,53 @@
+body{
+    background: -moz-radial-gradient(#F13F79, #FFC778); 
+    background: -webkit-radial-gradient(#F13F79, #FFC778); 
+    background: radial-gradient(#F13F79, #FFC778); 
+  /* background-color: antiquewhite; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+}
+label{
+  color: #FFF;
+  font-size: 20px;
+}
+.title{
+  color: aliceblue;
+  font-size: 50px;
+}
+.record{
+  font-size: 20px;
+  /* background-color: aqua; */
+  text-decoration: underline;
+}
+input{
+  position: absolute; 
+  border-radius: 3px;
+  position: relative;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* margin: 0 auto; */
+  max-width: 220px;
+  padding: 10px 25px;
+  /* color: #FFF; */
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+} 
+.csstype{
+  display: flex;
+}
+.cssitem{
+  display: flex;
+}
+.cssnum{
+  display: flex;
+}
+.cssprice{
+  display: flex;
+}
+.cssurl{
+  display: flex;
+}
