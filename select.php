@@ -16,7 +16,7 @@ try {
 
 
 //２．データ取得SQL作成
-$stmt = $pdo->prepare("SELECT `type`,SUM(`price`) FROM `gs_bm_table` GROUP BY `type` ;");
+$stmt = $pdo->prepare("SELECT `type`,sum(`price`) FROM `gs_bm_table` GROUP BY `type` ;");
 $status = $stmt->execute();
 
 //３．データ表示
@@ -32,6 +32,10 @@ if ($status==false) {
   //FETCH_ASSOC=http://php.net/manual/ja/pdostatement.fetch.php
 
   while ($result = $stmt->fetch(PDO::FETCH_ASSOC)) {
+
+    echo'<pre>';
+    var_dump($result);
+    echo'</pre>';
   //   $view .= '<p>' . $result['id'] . ' : ' . h($result['food']) . ' / ' 
   //   . h($result['weight']). ' / ' . h($result['walk']) . ' / ' 
    
@@ -39,8 +43,11 @@ if ($status==false) {
 // $a = $result['id'];
 // $item= $result['item'];
 $type = $result['type'];
-$price = $result['price'];
+print($type);
+
 // $num = $result['num'];
+$price = $result['sum(price)'];
+print($price);
 
 // $itemurl = $result['itemurl'];
 // $date= $result['date'];
@@ -77,13 +84,13 @@ $view.="
 </header>
 
 <table border="1" class="table">
-    <!-- <th>id</th> -->
-    <!-- <th>日付</th>
-    <th>購入品</th>
+    <!-- <th>id</th> 
+    <th>日付</th>
+    <th>購入品</th> -->
     <th>項目</th>
-    <th>数量</th>
+    <!-- <th>数量</th> -->
     <th>値段</th> 
-    <th>商品URL</th> -->
+    <!-- <th>商品URL</th>  -->
   
 <?= $view ?></table>  <!-- 26行目のview -->    
 
