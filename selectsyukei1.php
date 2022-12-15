@@ -16,7 +16,7 @@ try {
 
 
 //２．データ取得SQL作成
-$stmt = $pdo->prepare("SELECT `type`,sum(`price`) FROM `gs_bm_table` GROUP BY `type` ;");
+$stmt = $pdo->prepare("SELECT `type`,sum(price) FROM `gs_bm_table` GROUP BY `type` ;");
 $status = $stmt->execute();
 
 //３．データ表示
@@ -45,9 +45,17 @@ if ($status==false) {
 $type = $result['type'];
 print($type);
 
+echo '<pre>';
+var_dump($type);
+echo'</pre>';
+
 // $num = $result['num'];
 $price = $result['sum(price)'];
 print($price);
+
+echo '<pre>';
+var_dump($price);
+echo'</pre>';
 
 // $itemurl = $result['itemurl'];
 // $date= $result['date'];

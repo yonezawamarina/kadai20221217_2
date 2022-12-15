@@ -1,4 +1,6 @@
 <?php
+
+
 //1. POSTデータ取得
 $item = $_POST['item'];
 $type = $_POST['type'];
