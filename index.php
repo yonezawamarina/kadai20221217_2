@@ -1,15 +1,14 @@
 
 <html>
 <head>
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="./css/index.css">
 </head>
 
 
 <body>
 <div id="whole">
 
-  
-    <h1 class="title">ka・ke・i・bo</h1>
+    <h1>ka・ke・i・bo</h1>
 
      <!-- フォームここから -->
     <form action="insert.php" method="post">
@@ -18,8 +17,6 @@
           $today = date('Y/m/d');
           echo $today;
          ?>     
-                      
-   
                   <label class="cssitem">購入品<input type="text" name="item"></label>
                   <div class="csstype">
                         <label>費目  </label>

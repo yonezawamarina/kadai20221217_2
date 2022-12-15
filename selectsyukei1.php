@@ -83,7 +83,7 @@ $view.="
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>表示</title>
 
-<link rel="stylesheet" href="selectsyukei1.css">
+<link rel="stylesheet" href="./css/selectsyukei1.css">
 <style>div{padding: 10px;font-size:16px;}</style>
 </head>
 <body id="main">

@@ -43,7 +43,7 @@ $price = $price . '"'. $result['sum(price)'].'",';
     <title>Document</title>
  
 
-<link rel="stylesheet" href="chart.css">
+<link rel="stylesheet" href="./css/chart.css">
 </head>
 <body>
 

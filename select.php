@@ -70,7 +70,7 @@ $view.="
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>表示</title>
-<link rel="stylesheet" href="select.css">
+<link rel="stylesheet" href="./css/select.css">
 <style>div{padding: 10px;font-size:16px;}</style>
 </head>
 <body id="main">

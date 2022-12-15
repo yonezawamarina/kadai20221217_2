@@ -1,6 +1,6 @@
 
 body{
-  background-image:url(img/kaigai.jpg);
+  background-image:url(../img/kaigai.jpg);
   background-color: rgba(255,255,255,0.5);
   background-blend-mode: lighten;
   position: relative;

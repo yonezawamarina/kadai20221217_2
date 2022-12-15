@@ -1,5 +1,5 @@
 body{
-  background-image:url(img/kaigai.jpg);
+  background-image:url(../img/kaigai.jpg);
   background-color: rgba(255,255,255,0.5);
   background-blend-mode: lighten;
   margin: 0 auto;
@@ -7,21 +7,18 @@ body{
   justify-content: center;
   align-items: center;
   margin-right: 0;
-
 }
 label{
   display: inline-block;
-  text-align: right;
-  width: 3em;
+  /* text-align: right; */
+  /* width: 1px; */
 }
 label{
   color: black;
-
 }
-.title{
+h1{
   color: black;
   font-size: 40px;
-
 }
 .record{
   text-decoration: underline;
@@ -86,11 +83,8 @@ input{
   font-weight: 600;
   background:aliceblue;
   background: linear-gradient(270deg,white , #d7cebb);
-
-
  }
  .btnsb{
-
   width: 100px;
   height: 50px;
   border-radius: 3px;
