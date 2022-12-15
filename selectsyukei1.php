@@ -82,7 +82,8 @@ $view.="
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>表示</title>
-<link rel="stylesheet" href="select.css">
+
+<link rel="stylesheet" href="selectsyukei1.css">
 <style>div{padding: 10px;font-size:16px;}</style>
 </head>
 <body id="main">
@@ -101,7 +102,9 @@ $view.="
     <!-- <th>商品URL</th>  -->
   
 <?= $view ?></table>  <!-- 26行目のview -->    
-
- <a class="navbar-brand" href="index.php">データ登録</a>
+<div class="btn">
+    <button class="btnchart"  onclick="location.href='chart.php'">view chart</button>
+    <button class="btntop"  onclick="location.href='index.php'">top</button>
+ </div>
 </body>
 </html>

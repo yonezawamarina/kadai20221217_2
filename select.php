@@ -89,7 +89,7 @@ $view.="
     <th>商品URL</th>
   
 <?= $view ?></table>  <!-- 26行目のview -->    
+<button class="btnall"  onclick="location.href='index.php'">top</button>
 
- <a class="navbar-brand" href="index.php">データ登録</a>
 </body>
 </html>

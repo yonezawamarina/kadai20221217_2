@@ -16,14 +16,14 @@
 
         <?php 
           $today = date('Y/m/d');
-           echo $today;
+          echo $today;
          ?>     
              <p class="record">Let's record !</p> 
             
    
                   <label class="cssitem">購入品<input type="text" name="item"></label>
                   <div class="csstype">
-                        <label>項目  </label>
+                        <label>費目  </label>
                             <input type="radio" name=type value="食費" >食費
                             <input type="radio" name=type value="娯楽費">娯楽費
                             <input type="radio" name=type value="交通費">交通費 
@@ -31,9 +31,13 @@
                   <label class="cssnum">数量<input type="text" name="num"></label><br>
                   <label class="cssprice">金額<input type="text" name="price"></label><br>
                   <label class="cssurl">URL<input type="text" name="itemurl"></label><br>
-                  <input type="submit"  value"送信">
+                  <input type="submit" class="btnsb"  value"送信">
       </form>
     <!-- フォーム↑ここまで -->
+      <div class="btn">
+       <button class="btnall"  onclick="location.href='select.php'">view all</button>
+       <button class="btnitem"  onclick="location.href='selectsyukei1.php'">view by item</button>
+       </div>
 </div>
 
 

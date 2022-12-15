@@ -1,24 +1,29 @@
 body{
-    background: -moz-radial-gradient(#F13F79, #FFC778); 
-    background: -webkit-radial-gradient(#F13F79, #FFC778); 
-    background: radial-gradient(#F13F79, #FFC778); 
-  /* background-color: antiquewhite; */
+  background-image:url(img/kaigai.jpg);
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 0;
+  /* opacity: 0.3; */
 }
 label{
-  color: #FFF;
-  font-size: 20px;
+  display: inline-block;
+  text-align: right;
+  width: 3em;
+}
+label{
+  color: black;
+  /* font-size: 20px; */
 }
 .title{
-  color: aliceblue;
-  font-size: 50px;
+  color: black;
+  /* font-size: 50px; */
 }
 .record{
-  font-size: 20px;
+  /* font-size: 20px; */
   /* background-color: aqua; */
   text-decoration: underline;
 }
@@ -51,3 +56,69 @@ input{
 .cssurl{
   display: flex;
 }
+.btnall{
+  /* position: absolute; 
+  top: -200px;
+  left: -500px;  */
+  width: 100px;
+  height: 50px;
+  border-radius: 3px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 220px;
+  padding: 10px 25px;
+  color: black;
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+  background:aliceblue;
+  background: linear-gradient(270deg,white , #d7cebb);
+ }
+
+ .btnitem{
+  /* position: absolute; 
+  top: -200px;
+  left: -500px;  */
+  width: 100px;
+  height: 50px;
+  border-radius: 3px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 220px;
+  padding: 10px 25px;
+  color: black;
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+  background:aliceblue;
+  background: linear-gradient(270deg,white , #d7cebb);
+
+
+ }
+ .btnsb{
+  /* position: absolute; 
+  top: -200px;
+  left: -500px;  */
+  width: 100px;
+  height: 50px;
+  border-radius: 3px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 220px;
+  padding: 10px 25px;
+  color: black;
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+  background:aliceblue;
+  background: linear-gradient(270deg,white , #d7cebb);
+ }
+ .btn{
+  display: flex;
+ }
