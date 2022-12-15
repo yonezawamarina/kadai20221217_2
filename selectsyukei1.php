@@ -33,9 +33,9 @@ if ($status==false) {
 
   while ($result = $stmt->fetch(PDO::FETCH_ASSOC)) {
 
-    echo '<pre>';
-    var_dump($result);
-    echo'</pre>';
+    // echo '<pre>';
+    // var_dump($result);
+    // echo'</pre>';
   //   $view .= '<p>' . $result['id'] . ' : ' . h($result['food']) . ' / ' 
   //   . h($result['weight']). ' / ' . h($result['walk']) . ' / ' 
    
@@ -43,19 +43,19 @@ if ($status==false) {
 // $a = $result['id'];
 // $item= $result['item'];
 $type = $result['type'];
-print($type);
+// print($type);
 
-echo '<pre>';
-var_dump($type);
-echo'</pre>';
+// echo '<pre>';
+// var_dump($type);
+// echo'</pre>';
 
 // $num = $result['num'];
 $price = $result['sum(price)'];
-print($price);
+// print($price);
 
-echo '<pre>';
-var_dump($price);
-echo'</pre>';
+// echo '<pre>';
+// var_dump($price);
+// echo'</pre>';
 
 // $itemurl = $result['itemurl'];
 // $date= $result['date'];
