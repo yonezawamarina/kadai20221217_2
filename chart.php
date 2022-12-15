@@ -41,6 +41,9 @@ $price = $price . '"'. $result['sum(price)'].'",';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+ 
+
+<link rel="stylesheet" href="chart.css">
 </head>
 <body>
 
@@ -48,7 +51,7 @@ $price = $price . '"'. $result['sum(price)'].'",';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
     <!-- <script src="./js/chartjs-plugin-labels.js"></script> -->
 
-
+    <button class="btnall"  onclick="location.href='index.php'">top</button>
 
     <script>
     var ctx = document.getElementById('myChart').getContext('2d');

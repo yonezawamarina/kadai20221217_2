@@ -18,8 +18,7 @@
           $today = date('Y/m/d');
           echo $today;
          ?>     
-             <p class="record">Let's record !</p> 
-            
+                      
    
                   <label class="cssitem">購入品<input type="text" name="item"></label>
                   <div class="csstype">
